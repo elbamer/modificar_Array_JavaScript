@@ -1,0 +1,13 @@
+
+
+
+**********************ENUNCIADO*************
+Dado una array de enteros por ejemplo var numbers = new Array(2, 3, 4, 5, 6);
+retorna 
+
+["num_dos", "num_tres", "num_cuatro", "num_cinco", "num_seis"] 
+
+function solution (N), 
+por ejemplo [2,3,4,8,6]
+ retorne su representación literal.
+

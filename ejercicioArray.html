@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      var numbers = new Array(2, 3, 4, 5, 6);
+
+      function array_numbers(numbers) {
+        var current_string = new Array();
+
+        for (var i = 0; i < numbers.length; i++) {
+          if (numbers[i] === 2) {
+            current_string[i] = "dos";
+          }
+          if (numbers[i] === 3) {
+            current_string[i] = "tres";
+          }
+          if (numbers[i] === 4) {
+            current_string[i] = "cuatro";
+          }
+          if (numbers[i] === 5) {
+            current_string[i] = "cinco";
+          }
+          if (numbers[i] === 6) {
+            current_string[i] = "seis";
+          }
+        }
+        return current_string;
+      }
+
+      document.write(array_numbers(numbers));
+    </script>
+  </head>
+  <body></body>
+</html>
